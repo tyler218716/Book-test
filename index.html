@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Valuation Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Self-Published Book Valuation</h1>
+    <label>Monthly royalties ($)</label>
+    <input type="number" id="royalties" placeholder="e.g. 500" />
+
+    <label>Review count</label>
+    <input type="number" id="reviews" placeholder="e.g. 150" />
+
+    <label>Average rating</label>
+    <input type="number" step="0.1" id="rating" placeholder="e.g. 4.5" />
+
+    <label>Genre</label>
+    <input type="text" id="genre" placeholder="e.g. Thriller" />
+
+    <label>Average Amazon rank</label>
+    <input type="number" id="rank" placeholder="e.g. 12000" />
+
+    <label>Book age (months)</label>
+    <input type="number" id="age" placeholder="e.g. 18" />
+
+    <button onclick="calculateValue()">Calculate Value</button>
+
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

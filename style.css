@@ -1,0 +1,37 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin: 0;
+  background: #f4f4f4;
+}
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+input, label, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+button {
+  padding: 12px;
+  background: #007AFF;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
